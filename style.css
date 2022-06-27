@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f0db4f;
+}
+header {
+  margin-top: 1rem;
+  text-align: center;
+  height: 40vh;
+  /* border-bottom: 7px solid #eee; */
+  border-bottom: 7px solid black;
+}
+header h1 {
+  padding: 0.2rem;
+}
+header .between {
+  font-size: 2.5rem;
+}
+.number {
+  /* background: #eee; */
+  background: #332;
+  color: #eee;
+  font-size: 4rem;
+  width: 10rem;
+  padding: 2rem 0rem;
+  text-align: center;
+  position: absolute;
+  top: 15.5rem;
+  /* bottom: 0; */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-again {
+  margin-top: 5rem;
+  margin-left: 0.1rem;
+}
+.section-again button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2.7rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.btn {
+  border-radius: 0.2rem;
+  letter-spacing: 5px;
+}
+.btn:hover {
+  background-color: #15343a;
+}
+.section-check {
+  margin: 2rem 0 0 2rem;
+}
+.section-check h2 {
+  margin-left: 0.7rem;
+}
+.section-check input {
+  display: block;
+  margin-top: 1rem;
+  height: 5rem;
+  text-align: center;
+  background: none;
+  border: 4px solid #332;
+  font-size: 2rem;
+  max-width: 10rem;
+}
+.section-check button {
+  margin: 1rem 0.6rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.right {
+  width: 10rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 32rem;
+  left: 14rem;
+}
+.right p {
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width: 632px) {
+.section-again {
+  position: absolute;
+  top: 3.8rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.section-again button {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2.7rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.section-check {
+  margin: 6rem 0 0 6.7rem;
+}
+/* .section-check h2 {
+  margin-left: 0.7rem;
+} */
+.section-check input {
+  display: block;
+  margin-top: 1rem;
+  height: 5rem;
+  text-align: center;
+  background: none;
+  border: 4px solid #332;
+  font-size: 2rem;
+  max-width: 10rem;
+}
+.section-check button {
+  margin: 1rem 0.1rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.right {
+  width: 20rem;
+  font-size: 3rem;
+  position: absolute;
+  top: 26rem;
+  left: 20rem;
+}
+.right p {
+  font-size: 2.3rem;
+}
+}
+
+@media screen and (min-width: 800px) {
+.section-check {
+  margin: 6rem 0 0 10rem;
+}
+/* .section-check h2 {
+  margin-left: 0.7rem;
+} */
+.section-check input {
+  display: block;
+  margin-top: 1rem;
+  height: 5rem;
+  text-align: center;
+  background: none;
+  border: 4px solid #332;
+  font-size: 2rem;
+  max-width: 10rem;
+}
+.section-check button {
+  margin: 1rem 0.1rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.right {
+  width: 30rem;
+  font-size: 3rem;
+  position: absolute;
+  top: 26rem;
+  left: 24rem;
+}
+.right p {
+  font-size: 3rem;
+}
+}
+
+@media screen and (min-width: 1090px) {
+.section-check {
+  margin: 5rem 0 0 14rem;
+}
+/* .section-check h2 {
+  margin-left: 0.7rem;
+} */
+.section-check input {
+  display: block;
+  margin-top: 1rem;
+  width: 16rem;
+  height: 7rem;
+  text-align: center;
+  background: none;
+  border: 4px solid #332;
+  font-size: 3rem;
+  max-width: 20rem;
+}
+.section-check h2 {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+.section-check button {
+  margin: 1rem 2.5rem;
+  padding: 1.2rem 2rem;
+  border: none;
+  background: #388697;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.right {
+  width: 30rem;
+  font-size: 3rem;
+  position: absolute;
+  top: 26rem;
+  left: 36rem;
+}
+.right p {
+  font-size: 3.4rem;
+}
+}
